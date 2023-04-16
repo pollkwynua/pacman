@@ -307,7 +307,7 @@ while game == 1:
                 window.blit(time_time, (720,200))
 
                 display.update()
-                clock.tick(60)
+                clock.tick(70)
 
         if game == 3:
             window.blit(fon3, (0, -150))
@@ -324,7 +324,7 @@ while game == 1:
                         exit()
                     if e.type == KEYDOWN:
                         exit()
-                clock.tick(60)
+                clock.tick(70)
         if game == 0:
             window.blit(fon3, (0, -150))
             window.blit(fon4, (300, 70))
@@ -340,7 +340,7 @@ while game == 1:
                         exit()
                     if e.type == KEYDOWN:
                         exit()
-                clock.tick(60)
+                clock.tick(70)
 
         display.update()
-        clock.tick(60)
+        clock.tick(70)
